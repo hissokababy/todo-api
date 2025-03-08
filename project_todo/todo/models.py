@@ -25,3 +25,5 @@ class Task(models.Model):
         verbose_name = 'Задачу'
         verbose_name_plural = 'Задачи'
     
+    
+    
