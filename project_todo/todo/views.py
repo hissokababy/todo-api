@@ -25,7 +25,7 @@ class TaskListView(generics.ListCreateAPIView):
     filterset_fields = ['status', 'due_date']
     
     pagination_class = TaskListPagination
-
+    
 
 class TaskDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Task.objects.all()
